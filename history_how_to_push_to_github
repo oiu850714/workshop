@@ -1,0 +1,248 @@
+  467  git log
+  468  git config
+  469  git --user
+  470  man git
+  471  git config --global user.email "oiu850714@gmail.com"
+  472  git config --global user.name oiu850714
+  473  git config --global ui false
+  474  git config --global color.ui false
+  475  git log
+  476  git config --global color.ui true
+  477  git log
+  478  code
+  479  git config --global core.editor code
+  480  vim
+  481  git --config --global alias
+  482  git --config --global alias.co commit
+  483  git co
+  484  git config --global alias.co commit
+  485  git co
+  486  cd ..
+  487  ls
+  488  cd Cpp-Primer/
+  489  git status
+  490  git co
+  491  git config --global alias.lg "log --color --graph --all --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold bule)<%an>%Creset' --abbrev-commit --"
+  492  git lg
+  493  git lg
+  494  git config --global alias.lg "log --color --graph --all --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --"
+  495  git lg
+  496  cd 
+  497  ls
+  498  ls -al
+  499  vim .gitconfig 
+  500  cat .gitconfig 
+  501  vimdiff
+  502  ls
+  503  vimdiff .gitconfig .gitconfig 
+  504  git -v
+  505  git --version
+  506  git --update
+  507  git lfs
+  508  git help commit
+  509  git init
+  510  cd ..
+  511  ls
+  512  git config --global color.
+  513  git config --global color.ui false
+  514  git config --global color.ui true
+  515  ls
+  516  cd oiu
+  517  ls
+  518  cd status
+  519  git status
+  520  ls
+  521  cd Desktop/
+  522  cd code
+  523  ls
+  524  mkdir workshop
+  525  ls
+  526  cd workshop/
+  527  ls -al
+  528  git init
+  529  ls -al
+  530  cat .git
+  531  cat .git/
+  532  ssh freebsd@hlcoiunana.idv.tw
+  533  cd .git/
+  534  ls
+  535  ls -al
+  536  cd config 
+  537  vim config 
+  538  ls
+  539  cd ..
+  540  ls
+  541  touch index.html
+  542  ls
+  543  git status
+  544  git status
+  545  git add index.html 
+  546  git status
+  547  git reset index.html
+  548  git status
+  549  git add index.html 
+  550  git diff
+  551  git status
+  552  git commit 
+  553  git commit 
+  554  git commit 
+  555  git config --global core.editor vim
+  556  git commit 
+  557  vim index.html 
+  558  core index.html 
+  559  code index.html 
+  560  git status
+  561  git diff
+  562  git add index.html 
+  563  git diff
+  564  git diff --cached 
+  565  git commit
+  566  git log
+  567  git lg
+  568  git lg
+  569  vim index.html 
+  570  vim index.html 
+  571  git status
+  572  git commit -a
+  573  gitrevisions
+  574  git
+  575  git help revision
+  576  git help revisions
+  577  git lg
+  578  git show 818eb58
+  579  git show 
+  580  git show e1179be
+  581  git show HEAD
+  582  git show HEAD^
+  583  git show HEAD^^
+  584  git show HEAD^^^
+  585  git show HEAD^^
+  586  git show HEAD~1
+  587  git show HEAD~2
+  588  touch a.out
+  589  git status
+  590  git rm a.out
+  591  ls
+  592  git rm a.out
+  593  git add a.out 
+  594  git rm a.out
+  595  ls
+  596  ls -al
+  597  git rm a.out
+  598  git reset a.out
+  599  git rm a.out
+  600  git rm ./a.out
+  601  git rm "a.out"
+  602  ls
+  603  git status
+  604  rm a.out 
+  605  git status
+  606  ls
+  607  touch a.out
+  608  git commit -a -m "Add a.out"
+  609  git status
+  610  git add a.out 
+  611  git commit -m
+  612  git commit
+  613  ls
+  614  git status
+  615  rm a.out 
+  616  git status
+  617  git rm a.out
+  618  git status
+  619  git reset a.out
+  620  git commit
+  621  git status
+  622  git log
+  623  touch a.out
+  624  git add .
+  625  git commit
+  626  git status
+  627  rm a.out 
+  628  git status
+  629  git add a.out 
+  630  git status
+  631  git reset a.out
+  632  git commit
+  633  touch a.out
+  634  git status
+  635  git add a.out 
+  636  git status
+  637  git commit
+  638  git status
+  639  rm a.out
+  640  git status
+  641  git commit
+  642  git rm a.out 
+  643  git status
+  644  git commit
+  645  ls
+  646  touch add_track_and_then_not_track_file
+  647  git add add_track_and_then_not_track_file 
+  648  git commit
+  649  git status
+  650  git rm --cached add_track_and_then_not_track_file 
+  651  git status
+  652  git commit
+  653  git commit
+  654  git log
+  655  ls
+  656  touch demo_rename_file
+  657  git add t
+  658  git add demo_rename_file 
+  659  git commit
+  660  git status
+  661  ls
+  662  mv demo_rename_file demo_rename_file2
+  663  git status
+  664  mv demo_rename_file2 demo_rename_file
+  665  git status
+  666  git mv demo_rename_file demo_rename_file2
+  667  git status
+  668  git add demo_rename_file2 
+  669  git status
+  670  git commit 
+  671  git log
+  672  git lg
+  673  git checkout db909d2
+  674  git lg
+  675  ls
+  676  git checkout e1179be
+  677  ls
+  678  git lg
+  679  ls
+  680  cat index.html 
+  681  git checkout master
+  682  git lg
+  683  ls
+  684  vim index.html 
+  685  git add index.html 
+  686  git commit
+  687  vim index.html 
+  688  git add index.html 
+  689  git commit
+  690  git lg
+  691  git reset HEAD~1 #back to revision before HEAD
+  692  git lg
+  693  ls
+  694  vim index.html 
+  695  #but it just deletes the commit, not make repo return to previous revision
+  696  #you can check index.html, add commit 2 still exists.
+  697  vim index.html 
+  698  vim index.html 
+  699  git commit -a
+  700  #BUT if you use "git reset --hard <revision>", the repo will also return to that revision
+  701  #Use --hard carefully
+  702  ls
+  703  git status
+  704  touch 1 2 3
+  705  ls
+  706  git status
+  707  git clean -f 1 
+  708* 
+  709  git clean -f 2 
+  710  touch 2
+  711  git clean -f 2 3
+  712  #git clean [-f|-d] can rm file|directory not tracked
+  713  history 
+  714  history > history_how_to_push_to_github
